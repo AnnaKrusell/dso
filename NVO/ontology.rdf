@@ -1,0 +1,314 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl"
+     xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:qudt="http://qudt.org/schema/qudt/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:schema="http://schema.org/">
+    <Ontology/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://qudt.org/schema/qudt/ucumCode -->
+
+
+    <AnnotationProperty rdf:about="http://qudt.org/schema/qudt/ucumCode"/>
+    
+
+
+    <!-- http://schema.org/domainIncludes -->
+
+
+    <AnnotationProperty rdf:about="http://schema.org/domainIncludes"/>
+    
+
+
+    <!-- http://schema.org/rangeIncludes -->
+
+
+    <AnnotationProperty rdf:about="http://schema.org/rangeIncludes"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#comment -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#comment"/>
+    
+
+
+    <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#label -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#label"/>
+    
+
+
+    <!-- http://www.w3.org/2003/06/sw-vocab-status/ns#term_status -->
+
+
+    <AnnotationProperty rdf:about="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://www.w3.org/TR/owl-ref/Class -->
+
+
+    <Class rdf:about="https://www.w3.org/TR/owl-ref/Class"/>
+    
+
+
+    <!-- https://www.w3.org/TR/owl-ref/DatatypeProperty -->
+
+
+    <Class rdf:about="https://www.w3.org/TR/owl-ref/DatatypeProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://example.com/terms2#AverageIndoorTemperature -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#AverageIndoorTemperature">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/Class"/>
+        <rdf:label xml:lang="en">Average simulated Indoor temperature</rdf:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#AverageIndoorVelocity -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#AverageIndoorVelocity">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/Class"/>
+        <rdf:label xml:lang="en">Average simulated indoor velocity</rdf:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#DistanceFromWindow -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#DistanceFromWindow">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/Class"/>
+        <rdf:comment xml:lang="en">A distance, measured in metres, that represents the length from the centerpoint of the window to a probe point. This value is not necessary unless the probe points do not belong to a set of coordinates. These can be given by using the &apos;rsot:hasCoordinates&apos; datatypeproperty from the RSOT ontology.</rdf:comment>
+        <rdf:label xml:lang="en">Distance from window</rdf:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#IndoorTemperature -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#IndoorTemperature">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/Class"/>
+        <rdf:comment xml:lang="en">A simulated or measured indoor temerpature measured at a point inside a room. Given in degrees celsius.</rdf:comment>
+        <rdf:label xml:lang="en">Simulated indoor temperature</rdf:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#IndoorVelocity -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#IndoorVelocity">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/Class"/>
+        <rdf:comment xml:lang="en">A simulated or measured indoor velocity measured at a point inside a room. Given in the unit m/s.</rdf:comment>
+        <rdf:label xml:lang="en">Simulated indoor velocity</rdf:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#OpeningArea -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#OpeningArea">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/Class"/>
+        <rdf:comment xml:lang="en">The opening area used to simulate the indoor velocity or temoerature. The opening area is defined by the area of opening where the air can enter the room freely. The opening area should be given in m^2.</rdf:comment>
+        <rdf:label xml:lang="en">Opening area</rdf:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#OutdoorTemperature -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#OutdoorTemperature">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/Class"/>
+        <rdf:comment xml:lang="en">The outdoor temperature used to simulate the natural ventilation results. It should be a value that was used as a boundary condition. The temperature should be given in degrees celsius.</rdf:comment>
+        <rdf:label xml:lang="en">Outdoor temperature</rdf:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#OutdoorVelocity -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#OutdoorVelocity">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/Class"/>
+        <rdf:comment xml:lang="en">The outdoor velocity used to simulate the natural ventilation results. It should be a value that was used as a boundary condition. The velocity should be given in m/s.</rdf:comment>
+        <rdf:label xml:lang="en">Outdoor velocity</rdf:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#TimeStep -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#TimeStep">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/Class"/>
+        <rdf:comment xml:lang="en">A timestep used to define the amount of time that has passed before the measurement was made. This is only applicable if a transient or semi-transient simulation has been run. It defines the amount of time that has passed since the window was opened. The unit for the timesteps is set to seconds.</rdf:comment>
+        <rdf:label xml:lang="en">Timestep</rdf:label>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#simlatedOutdoorTemperature -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#simlatedOutdoorTemperature">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/DatatypeProperty"/>
+        <qudt:ucumCode>cel (1 K)</qudt:ucumCode>
+        <schema:domainIncludes rdf:resource="https://example.com/terms#Result"/>
+        <rdf:label xml:lang="en">Simulated outdoor temperature</rdf:label>
+        <ns:term_status>stable</ns:term_status>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#simulatedDistance -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#simulatedDistance">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/DatatypeProperty"/>
+        <qudt:ucumCode>m</qudt:ucumCode>
+        <schema:domainIncludes rdf:resource="https://example.com/terms#Result"/>
+        <schema:rangeIncludes rdf:resource="https://example.com/terms2#DistanceFromWindow"/>
+        <rdf:label xml:lang="en">Simulated distance from window</rdf:label>
+        <ns:term_status>stable</ns:term_status>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#simulatedHeight -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#simulatedHeight">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/DatatypeProperty"/>
+        <qudt:ucumCode>m</qudt:ucumCode>
+        <rdf:comment xml:lang="en">The relationship between the height of the probe point (z-coordinate) and the result, given in metres.</rdf:comment>
+        <rdf:label xml:lang="en">Simulated height of probe point</rdf:label>
+        <ns:term_status>stable</ns:term_status>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#simulatedOpeningArea -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#simulatedOpeningArea">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/DatatypeProperty"/>
+        <qudt:ucumCode>m^2</qudt:ucumCode>
+        <schema:domainIncludes rdf:resource="https://example.com/terms#Result"/>
+        <rdf:comment xml:lang="en">The relationship between a result and the simulated opening area used for the simulation.</rdf:comment>
+        <rdf:label xml:lang="en">Simulated opening area</rdf:label>
+        <ns:term_status>stable</ns:term_status>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#simulatedOutdoorVelocity -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#simulatedOutdoorVelocity">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/DatatypeProperty"/>
+        <qudt:ucumCode>m/s</qudt:ucumCode>
+        <schema:domainIncludes rdf:resource="https://example.com/terms#Result"/>
+        <rdf:comment xml:lang="en">The relationship between a result and the simulated outdoor velocity value.</rdf:comment>
+        <rdf:label xml:lang="en">Simulated outdoor velocity</rdf:label>
+        <ns:term_status>stable</ns:term_status>
+    </NamedIndividual>
+    
+
+
+    <!-- https://example.com/terms2#simulatedTimeStep -->
+
+
+    <NamedIndividual rdf:about="https://example.com/terms2#simulatedTimeStep">
+        <rdf:type rdf:resource="https://www.w3.org/TR/owl-ref/DatatypeProperty"/>
+        <qudt:ucumCode>s</qudt:ucumCode>
+        <schema:domainIncludes rdf:resource="https://example.com/terms#Result"/>
+        <rdf:comment xml:lang="en">The relationship between the simulated result and the timestep (amount of time the window was opened).</rdf:comment>
+        <rdf:label xml:lang="en">Simulated timestep</rdf:label>
+        <ns:term_status>stable</ns:term_status>
+    </NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://example.com/terms2#simulatedDistanceFromWindow">
+        <rdf:comment xml:lang="en">The relationship between the simulated distance from the center point of the window to the probe point and a simulated result. Given in metres. </rdf:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://example.com/terms2#simulatedIndoorTemperature">
+        <rdf:comment xml:lang="en">The relationship between a result and the simulated indoor temperature value.</rdf:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://example.com/terms2#simulatedIndoorVelocity">
+        <rdf:comment xml:lang="en">The relationship between a result and the simulated indoor velocity value. </rdf:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://example.com/terms2#simulatedOutdoorTemperature">
+        <rdf:comment xml:lang="en">The relationship between a result and the simulated outdoor Temperature value used for the simulation. The result is the simulated value, and the temperature is a boundary condition.</rdf:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+

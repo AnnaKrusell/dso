@@ -1,0 +1,255 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://qudt.org/schema/qudt/ucumCode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/domainIncludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/rangeIncludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#label",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://example.com/terms2#AverageIndoorTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/Class" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Average simulated Indoor temperature"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#AverageIndoorVelocity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/Class" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Average simulated indoor velocity"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#DistanceFromWindow",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/Class" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "A distance, measured in metres, that represents the length from the centerpoint of the window to a probe point. This value is not necessary unless the probe points do not belong to a set of coordinates. These can be given by using the 'rsot:hasCoordinates' datatypeproperty from the RSOT ontology."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Distance from window"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#IndoorTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/Class" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "A simulated or measured indoor temerpature measured at a point inside a room. Given in degrees celsius."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Simulated indoor temperature"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#IndoorVelocity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/Class" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "A simulated or measured indoor velocity measured at a point inside a room. Given in the unit m/s."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Simulated indoor velocity"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#OpeningArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/Class" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The opening area used to simulate the indoor velocity or temoerature. The opening area is defined by the area of opening where the air can enter the room freely. The opening area should be given in m^2."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Opening area"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#OutdoorTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/Class" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The outdoor temperature used to simulate the natural ventilation results. It should be a value that was used as a boundary condition. The temperature should be given in degrees celsius."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Outdoor temperature"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#OutdoorVelocity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/Class" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The outdoor velocity used to simulate the natural ventilation results. It should be a value that was used as a boundary condition. The velocity should be given in m/s."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Outdoor velocity"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#TimeStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/Class" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "A timestep used to define the amount of time that has passed before the measurement was made. This is only applicable if a transient or semi-transient simulation has been run. It defines the amount of time that has passed since the window was opened. The unit for the timesteps is set to seconds."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Timestep"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#simlatedOutdoorTemperature",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/ucumCode" : [ {
+    "@value" : "cel (1 K)"
+  } ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "https://example.com/terms#Result"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Simulated outdoor temperature"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#simulatedDistance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/ucumCode" : [ {
+    "@value" : "m"
+  } ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "https://example.com/terms#Result"
+  } ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "https://example.com/terms2#DistanceFromWindow"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Simulated distance from window"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#simulatedDistanceFromWindow",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relationship between the simulated distance from the center point of the window to the probe point and a simulated result. Given in metres. "
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#simulatedHeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/ucumCode" : [ {
+    "@value" : "m"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relationship between the height of the probe point (z-coordinate) and the result, given in metres."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Simulated height of probe point"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#simulatedIndoorTemperature",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relationship between a result and the simulated indoor temperature value."
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#simulatedIndoorVelocity",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relationship between a result and the simulated indoor velocity value. "
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#simulatedOpeningArea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/ucumCode" : [ {
+    "@value" : "m^2"
+  } ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "https://example.com/terms#Result"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relationship between a result and the simulated opening area used for the simulation."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Simulated opening area"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#simulatedOutdoorTemperature",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relationship between a result and the simulated outdoor Temperature value used for the simulation. The result is the simulated value, and the temperature is a boundary condition."
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#simulatedOutdoorVelocity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/ucumCode" : [ {
+    "@value" : "m/s"
+  } ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "https://example.com/terms#Result"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relationship between a result and the simulated outdoor velocity value."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Simulated outdoor velocity"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://example.com/terms2#simulatedTimeStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "https://www.w3.org/TR/owl-ref/DatatypeProperty" ],
+  "http://qudt.org/schema/qudt/ucumCode" : [ {
+    "@value" : "s"
+  } ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "https://example.com/terms#Result"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#comment" : [ {
+    "@language" : "en",
+    "@value" : "The relationship between the simulated result and the timestep (amount of time the window was opened)."
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#label" : [ {
+    "@language" : "en",
+    "@value" : "Simulated timestep"
+  } ],
+  "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" : [ {
+    "@value" : "stable"
+  } ]
+}, {
+  "@id" : "https://www.w3.org/TR/owl-ref/Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://www.w3.org/TR/owl-ref/DatatypeProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]

@@ -1,0 +1,174 @@
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://qudt.org/schema/qudt/ucumCode
+<http://qudt.org/schema/qudt/ucumCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/domainIncludes
+<http://schema.org/domainIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://schema.org/rangeIncludes
+<http://schema.org/rangeIncludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#comment
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/1999/02/22-rdf-syntax-ns#label
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2003/06/sw-vocab-status/ns#term_status
+<http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://www.w3.org/TR/owl-ref/Class
+<https://www.w3.org/TR/owl-ref/Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://www.w3.org/TR/owl-ref/DatatypeProperty
+<https://www.w3.org/TR/owl-ref/DatatypeProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://example.com/terms2#AverageIndoorTemperature
+<https://example.com/terms2#AverageIndoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#AverageIndoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/Class> .
+<https://example.com/terms2#AverageIndoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Average simulated Indoor temperature"@en .
+# 
+# https://example.com/terms2#AverageIndoorVelocity
+<https://example.com/terms2#AverageIndoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#AverageIndoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/Class> .
+<https://example.com/terms2#AverageIndoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Average simulated indoor velocity"@en .
+# 
+# https://example.com/terms2#DistanceFromWindow
+<https://example.com/terms2#DistanceFromWindow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#DistanceFromWindow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/Class> .
+<https://example.com/terms2#DistanceFromWindow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "A distance, measured in metres, that represents the length from the centerpoint of the window to a probe point. This value is not necessary unless the probe points do not belong to a set of coordinates. These can be given by using the 'rsot:hasCoordinates' datatypeproperty from the RSOT ontology."@en .
+<https://example.com/terms2#DistanceFromWindow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Distance from window"@en .
+# 
+# https://example.com/terms2#IndoorTemperature
+<https://example.com/terms2#IndoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#IndoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/Class> .
+<https://example.com/terms2#IndoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "A simulated or measured indoor temerpature measured at a point inside a room. Given in degrees celsius."@en .
+<https://example.com/terms2#IndoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Simulated indoor temperature"@en .
+# 
+# https://example.com/terms2#IndoorVelocity
+<https://example.com/terms2#IndoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#IndoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/Class> .
+<https://example.com/terms2#IndoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "A simulated or measured indoor velocity measured at a point inside a room. Given in the unit m/s."@en .
+<https://example.com/terms2#IndoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Simulated indoor velocity"@en .
+# 
+# https://example.com/terms2#OpeningArea
+<https://example.com/terms2#OpeningArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#OpeningArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/Class> .
+<https://example.com/terms2#OpeningArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The opening area used to simulate the indoor velocity or temoerature. The opening area is defined by the area of opening where the air can enter the room freely. The opening area should be given in m^2."@en .
+<https://example.com/terms2#OpeningArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Opening area"@en .
+# 
+# https://example.com/terms2#OutdoorTemperature
+<https://example.com/terms2#OutdoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#OutdoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/Class> .
+<https://example.com/terms2#OutdoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The outdoor temperature used to simulate the natural ventilation results. It should be a value that was used as a boundary condition. The temperature should be given in degrees celsius."@en .
+<https://example.com/terms2#OutdoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Outdoor temperature"@en .
+# 
+# https://example.com/terms2#OutdoorVelocity
+<https://example.com/terms2#OutdoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#OutdoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/Class> .
+<https://example.com/terms2#OutdoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The outdoor velocity used to simulate the natural ventilation results. It should be a value that was used as a boundary condition. The velocity should be given in m/s."@en .
+<https://example.com/terms2#OutdoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Outdoor velocity"@en .
+# 
+# https://example.com/terms2#TimeStep
+<https://example.com/terms2#TimeStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#TimeStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/Class> .
+<https://example.com/terms2#TimeStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "A timestep used to define the amount of time that has passed before the measurement was made. This is only applicable if a transient or semi-transient simulation has been run. It defines the amount of time that has passed since the window was opened. The unit for the timesteps is set to seconds."@en .
+<https://example.com/terms2#TimeStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Timestep"@en .
+# 
+# https://example.com/terms2#simlatedOutdoorTemperature
+<https://example.com/terms2#simlatedOutdoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#simlatedOutdoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/DatatypeProperty> .
+<https://example.com/terms2#simlatedOutdoorTemperature> <http://qudt.org/schema/qudt/ucumCode> "cel (1 K)" .
+<https://example.com/terms2#simlatedOutdoorTemperature> <http://schema.org/domainIncludes> <https://example.com/terms#Result> .
+<https://example.com/terms2#simlatedOutdoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Simulated outdoor temperature"@en .
+<https://example.com/terms2#simlatedOutdoorTemperature> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://example.com/terms2#simulatedDistance
+<https://example.com/terms2#simulatedDistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#simulatedDistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/DatatypeProperty> .
+<https://example.com/terms2#simulatedDistance> <http://qudt.org/schema/qudt/ucumCode> "m" .
+<https://example.com/terms2#simulatedDistance> <http://schema.org/domainIncludes> <https://example.com/terms#Result> .
+<https://example.com/terms2#simulatedDistance> <http://schema.org/rangeIncludes> <https://example.com/terms2#DistanceFromWindow> .
+<https://example.com/terms2#simulatedDistance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Simulated distance from window"@en .
+<https://example.com/terms2#simulatedDistance> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://example.com/terms2#simulatedHeight
+<https://example.com/terms2#simulatedHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#simulatedHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/DatatypeProperty> .
+<https://example.com/terms2#simulatedHeight> <http://qudt.org/schema/qudt/ucumCode> "m" .
+<https://example.com/terms2#simulatedHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The relationship between the height of the probe point (z-coordinate) and the result, given in metres."@en .
+<https://example.com/terms2#simulatedHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Simulated height of probe point"@en .
+<https://example.com/terms2#simulatedHeight> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://example.com/terms2#simulatedOpeningArea
+<https://example.com/terms2#simulatedOpeningArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#simulatedOpeningArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/DatatypeProperty> .
+<https://example.com/terms2#simulatedOpeningArea> <http://qudt.org/schema/qudt/ucumCode> "m^2" .
+<https://example.com/terms2#simulatedOpeningArea> <http://schema.org/domainIncludes> <https://example.com/terms#Result> .
+<https://example.com/terms2#simulatedOpeningArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The relationship between a result and the simulated opening area used for the simulation."@en .
+<https://example.com/terms2#simulatedOpeningArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Simulated opening area"@en .
+<https://example.com/terms2#simulatedOpeningArea> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://example.com/terms2#simulatedOutdoorVelocity
+<https://example.com/terms2#simulatedOutdoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#simulatedOutdoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/DatatypeProperty> .
+<https://example.com/terms2#simulatedOutdoorVelocity> <http://qudt.org/schema/qudt/ucumCode> "m/s" .
+<https://example.com/terms2#simulatedOutdoorVelocity> <http://schema.org/domainIncludes> <https://example.com/terms#Result> .
+<https://example.com/terms2#simulatedOutdoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The relationship between a result and the simulated outdoor velocity value."@en .
+<https://example.com/terms2#simulatedOutdoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Simulated outdoor velocity"@en .
+<https://example.com/terms2#simulatedOutdoorVelocity> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# https://example.com/terms2#simulatedTimeStep
+<https://example.com/terms2#simulatedTimeStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://example.com/terms2#simulatedTimeStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/TR/owl-ref/DatatypeProperty> .
+<https://example.com/terms2#simulatedTimeStep> <http://qudt.org/schema/qudt/ucumCode> "s" .
+<https://example.com/terms2#simulatedTimeStep> <http://schema.org/domainIncludes> <https://example.com/terms#Result> .
+<https://example.com/terms2#simulatedTimeStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The relationship between the simulated result and the timestep (amount of time the window was opened)."@en .
+<https://example.com/terms2#simulatedTimeStep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Simulated timestep"@en .
+<https://example.com/terms2#simulatedTimeStep> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Annotations
+# #
+# #################################################################
+# 
+# 
+<https://example.com/terms2#simulatedDistanceFromWindow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The relationship between the simulated distance from the center point of the window to the probe point and a simulated result. Given in metres. "@en .
+# 
+<https://example.com/terms2#simulatedIndoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The relationship between a result and the simulated indoor temperature value."@en .
+# 
+<https://example.com/terms2#simulatedIndoorVelocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The relationship between a result and the simulated indoor velocity value. "@en .
+# 
+<https://example.com/terms2#simulatedOutdoorTemperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#comment> "The relationship between a result and the simulated outdoor Temperature value used for the simulation. The result is the simulated value, and the temperature is a boundary condition."@en .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
